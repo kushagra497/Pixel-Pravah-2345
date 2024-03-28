@@ -1,0 +1,431 @@
+/* css file for landing page */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /* background-color: rgb(46, 49, 65); */
+  
+  color: #fff;
+  background: url(../images/bg-tires.png), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%)
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.main-heading {
+  margin: 1.6rem 0;
+  font-size: 2.6rem;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+  text-align: center;
+  transform: skewX(-16deg);
+  cursor: pointer;
+}
+
+.main-heading span {
+  padding: 0.2rem 0.1rem 0.2rem 0.4rem;
+  background-color: rgb(214, 47, 58);
+  transform: skewX(-20deg);
+}
+
+.main-heading span:nth-child(2) {
+  padding: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+button {
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.race-now {
+  background-color: rgb(214, 47, 58);
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  padding: 0.4rem 1.4rem;
+  box-shadow: 0px 5px 0px rgb(173, 37, 46);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.race-now:hover {
+  background-color: rgb(185, 42, 51);
+  box-shadow: 0px -3px 0px rgb(173, 37, 46);
+}
+
+.race-now span {
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+}
+
+.inner-navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-navbar button {
+  background-color: rgb(60, 64, 85);
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0.8rem 1.4rem;
+  width: 8rem;
+}
+
+.inner-navbar button:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-selected {
+  background: linear-gradient(
+    0deg,
+    rgb(61, 61, 61) 0%,
+    rgb(44, 44, 44) 50%,
+    rgb(34, 34, 34) 100%
+  );
+  color: rgba(255, 255, 255, 1);
+}
+
+.landing-hero {
+  background: radial-gradient(
+    circle,
+    rgba(29, 97, 148, 1) 0%,
+    rgba(34, 90, 129, 1) 50%,
+    rgba(20, 66, 98, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin: 2rem 8rem 10rem;
+  padding: 2rem;
+  position: relative;
+  width: 55rem;
+  margin-left: 20%;
+  /* margin: auto; */
+}
+
+.landing-hero-content {
+  width: 62%;
+}
+
+.landing-hero-content-para {
+  font-weight: 500;
+  margin: 2.6rem 0 3rem;
+  opacity: 0.9;
+}
+
+.landing-hero-content-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.landing-hero-content-btns div {
+  flex: 1;
+}
+
+.landing-hero-content-btns-register button,
+.landing-hero-content-btns-login button {
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.landing-hero-content-btns-register p,
+.landing-hero-content-btns-login p {
+  text-align: center;
+  margin-top: 0.6rem;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.landing-hero-content-btns-register button {
+  background-color: rgb(214, 47, 58);
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  padding: 0.4rem 1.4rem;
+  box-shadow: 0px 5px 0px rgb(173, 37, 46);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.landing-hero-content-btns-register button:hover {
+  background-color: rgb(185, 42, 51);
+  box-shadow: 0px -3px 0px rgb(173, 37, 46);
+}
+
+.landing-hero-content-btns-login button {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.landing-hero-content-btns-login button:hover {
+  border: none;
+  background-color: #fff;
+  color: rgba(34, 90, 129, 1);
+  font-weight: 600;
+  padding: 0.58rem;
+}
+
+.landing-hero-image {
+  position: absolute;
+  top: 0;
+  right: -30%;
+  width: 66%;
+}
+
+.landing-hero-image img {
+  width: 100%;
+}
+
+.landing-latest-news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 6rem 14rem;
+}
+
+.landing-latest-news-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.landing-latest-news-heading button {
+  border: 1px solid rgb(72, 134, 185);
+  border-radius: 4px;
+  background: transparent;
+  color: rgb(72, 134, 185);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.landing-latest-news-heading button:hover {
+  background-color: rgb(72, 134, 185);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0.48rem 1rem;
+  box-shadow: 0px 4px 0px rgb(52, 97, 134);
+}
+
+.landing-latest-news-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(59, 61, 76);
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.3);
+}
+
+.landing-latest-news-box img {
+  flex: 1;
+  width: 58%;
+}
+
+.landing-latest-news-content {
+  flex: 2;
+  padding: 1rem;
+}
+
+.landing-latest-news-content-date {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+.landing-latest-news-content-date span {
+  font-weight: 600;
+}
+
+.landing-latest-news-content-heading {
+  margin: 0.6rem 0;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.landing-latest-news-content-para {
+  margin: 1.4rem 0 2.6rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.landing-latest-news-content button {
+  background-color: rgb(214, 47, 58);
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  padding: 0.4rem 1.4rem;
+  box-shadow: 0px 5px 0px rgb(173, 37, 46);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.landing-latest-news-content button:hover {
+  background-color: rgb(185, 42, 51);
+  box-shadow: 0px -3px 0px rgb(173, 37, 46);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem 14rem 0;
+  position: relative;
+}
+
+.footer-links {
+  background-color: rgb(34, 36, 47);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.footer-links ul li {
+  margin: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+  background-color: rgb(26, 27, 37);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  width: 100%;
+}
+
+.footer-address ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer img {
+  position: absolute;
+  top: -4rem;
+  right: 4rem;
+  width: 16rem;
+}
+
+@media screen and (max-width: 1240px) {
+  .landing-hero {
+    font-size: 90%;
+    margin: 2rem 4rem 10rem;
+  }
+  .landing-hero-content {
+    width: 55%;
+  }
+  .landing-hero-image {
+    right: -16%;
+    top: 8%;
+    width: 58%;
+  }
+  .landing-latest-news {
+    margin: 6rem 8rem;
+  }
+  .footer {
+    margin: 10rem 10rem 0;
+  }
+  .footer-address ul {
+    font-size: 90%;
+  }
+  .footer img {
+    top: -1.4rem;
+    width: 9rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .landing-hero {
+    margin: 8rem 2rem;
+    width: 90%;
+  }
+  .landing-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16rem;
+    width: 100%;
+  }
+  .landing-hero-image {
+    top: -18%;
+    right: 8%;
+    width: 85%;
+  }
+  .landing-latest-news-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing-latest-news-box img {
+    width: 100%;
+  }
+  .footer {
+    margin: 10rem 4rem 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    margin: 1rem;
+  }
+  .landing-hero-content {
+    margin-top: 12rem;
+  }
+  .landing-latest-news {
+    margin: 6rem 5rem;
+  }
+  .footer-links {
+    gap: 2rem;
+    padding-top: 14rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .navbar {
+    border: 1px solid red;
+  }
+  .landing-hero-content {
+    margin-top: 8rem;
+  }
+  .landing-latest-news {
+    margin: 6rem 3rem;
+  }
+  .landing-hero-image {
+    top: -18%;
+    right: 2%;
+    width: 85%;
+  }
+}

@@ -1,0 +1,196 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    background: url(../images/bg-tires.png), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%)
+}
+ul,
+  li,
+  a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .main-heading {
+    margin: 1.6rem 0;
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    transform: skewX(-16deg);
+    cursor: pointer;
+    color: white;
+  }
+  
+  .main-heading span {
+    padding: 0.2rem 0.1rem 0.2rem 0.4rem;
+    background-color: rgb(214, 47, 58);
+    transform: skewX(-20deg);
+  }
+  
+  .main-heading span:nth-child(2) {
+    padding: 0.2rem;
+    margin-left: 0.2rem;
+  }
+  
+  button {
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .race-now {
+    background-color: rgb(214, 47, 58);
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    padding: 0.4rem 1.4rem;
+    box-shadow: 0px 5px 0px rgb(173, 37, 46);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .race-now:hover {
+    background-color: rgb(185, 42, 51);
+    box-shadow: 0px -3px 0px rgb(173, 37, 46);
+  }
+  
+  .race-now span {
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+  }
+  
+  .inner-navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .inner-navbar button {
+    background-color: rgb(60, 64, 85);
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0.8rem 1.4rem;
+    width: 8rem;
+  }
+  
+  .inner-navbar button:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .navbar-selected {
+    background: linear-gradient(
+      0deg,
+      rgb(61, 61, 61) 0%,
+      rgb(44, 44, 44) 50%,
+      rgb(34, 34, 34) 100%
+    );
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  
+.start {
+    margin-bottom: 20px;
+    background-color: #051a30;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.start:hover {
+    background-color: #f0496d;
+}
+
+.container {
+    max-width: 600px; 
+    width: 100%;
+    
+}
+#messagebox{
+   
+   color:  #3deb2d;
+   text-align: center;
+   margin-top: 2px;
+   background-color: #293347;
+   font-style: italic;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#messagebox {
+    width: 40%;
+    margin-top: 20px;
+    height: 50px; 
+    padding: 15px;
+    border: 1px solid #f76363;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#messageAdd {
+    background-color:#051a30;
+    color: #fff;
+    border: 50%;
+    border-radius: 50px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#messageAdd:hover {
+    background-color: #f0496d;
+}
+/* #user-joining{
+    border: 2px solid rgb(243, 80, 80);
+    height: 300px;
+    width: 50%;
+    border-radius: 2%;
+    text-align: center;
+    padding-top: 20px; */
+    /* background: url(../images/bg-tires.png), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%) */
+
+/* } */
+#user-joining {
+    border: 10px solid rgb(81, 48, 141);
+    height: 300px;
+    width: 50%;
+    border-radius: 2%;
+    text-align: center;
+    padding-top: 20px;
+    overflow-y: auto;
+    color: orange;
+    font-style: italic;
+    font-weight: 200;
+    
+}
+
+
+@media (max-width: 600px) {
+    #messagebox {
+        width: 90%; 
+    }
+}
