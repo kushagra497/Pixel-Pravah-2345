@@ -19,7 +19,7 @@ const server = http.createServer(app);
 const io = socketIO(server);
 
 
-const PORT=process.env.PORT;
+const PORT=3000 ;
 
 
 app.use(cors())
@@ -117,7 +117,7 @@ server.listen(PORT,async()=>{
     try{
          await connection
          console.log("connected to db")
-         console.log("server is running at port 4400");
+         console.log("server is running at port 3000");
     }catch(err){
         console.log(err);
     }
