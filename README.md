@@ -22,3 +22,20 @@ Turbotext is a platform designed to help users enhance their typing speed and ac
 
    ```bash
    git clone https://github.com/your-username/turbotext.git
+
+##Deployment
+The project is deployed using Vercel for the frontend and Render for the backend.
+
+##ScreenShots
+![Screenshot 2024-04-03 235907](https://github.com/kushagra497/Pixel-Pravah-2345/assets/125078546/1334f117-7bd1-4706-b191-a29c4560262b)
+
+
+![Screenshot 2024-04-03 235849](https://github.com/kushagra497/Pixel-Pravah-2345/assets/125078546/436ed6f1-580d-4cc2-9c8a-043e103a2e7c)
+
+   
+![Screenshot 2024-04-03 235833](https://github.com/kushagra497/Pixel-Pravah-2345/assets/125078546/b4c18372-215e-4c4e-a3e9-2a921fba4e5f)
+
+![Screenshot 2024-04-03 235820](https://github.com/kushagra497/Pixel-Pravah-2345/assets/125078546/0fd32166-2307-468e-b226-c175b74529ef)
+
+![Screenshot 2024-04-03 235809](https://github.com/kushagra497/Pixel-Pravah-2345/assets/125078546/843749fa-ba3a-47fb-81d0-9ddd5171ae8f)
+
