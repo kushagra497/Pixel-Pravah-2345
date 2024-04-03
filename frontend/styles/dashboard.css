@@ -3,7 +3,14 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     /* background-color: #f8f8f8; */
-    background: url(../images/bg-tires.png), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%)
+    /* background: url(../images/bg-tires.png), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%) */
+    color: #fff;
+    background: radial-gradient(
+      circle,
+      #2062cc,
+      #0a3f95 ,
+      #011639 
+    );
 }                  
 
 .container {
@@ -159,15 +166,14 @@ nav a {
     width: 65%;
     justify-content: center;
     text-align: right;
-    padding: 250px 30px 80px 30px; 
+    padding: 335px 30px 80px 30px; 
     /* background-color: #333; */
-    background: url(../images/race-track.gif) ;
+    background: url(../images/giff.gif) ;
 
     color: rgb(255, 213, 213);
     border-radius: 10px;
     margin-top: 20px;
-    /* margin-left: 120px; */
-    /* margin-right:120px; */
+    
 }
 
 .hero-section h1 {
@@ -178,6 +184,9 @@ nav a {
 .hero-section p {
     font-size: 1.2em;
     margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .start-btn {
@@ -314,7 +323,7 @@ button:hover {
   
   .footer img {
     position: absolute;
-    top: -4rem;
+    top: -3rem;
     right: 4rem;
     width: 16rem;
   }
