@@ -201,7 +201,7 @@ button {
 
 .landing-hero-image {
   position: absolute;
-  top: 0;
+  top: 10;
   right: -30%;
   width: 66%;
 }
@@ -248,7 +248,7 @@ button {
 .landing-latest-news-box {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(59, 61, 76);
+  background-color: rgb(52, 97, 134);
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.3);
 }
 
@@ -285,21 +285,21 @@ button {
 }
 
 .landing-latest-news-content button {
-  background-color: rgb(214, 47, 58);
+  background-color: #ff7666;
   border: none;
   border-radius: 3px;
   display: flex;
   font-weight: 600;
   align-items: center;
   padding: 0.4rem 1.4rem;
-  box-shadow: 0px 5px 0px rgb(173, 37, 46);
+  box-shadow: 0px 5px 0px #ff7666;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .landing-latest-news-content button:hover {
-  background-color: rgb(185, 42, 51);
-  box-shadow: 0px -3px 0px rgb(173, 37, 46);
+  background-color:#ff7666;
+  box-shadow: 0px -3px 0px #ff7666;
 }
 
 .footer {
@@ -370,7 +370,7 @@ button {
     font-size: 90%;
   }
   .footer img {
-    top: -1.4rem;
+    top: -3.4rem;
     width: 9rem;
   }
 }
