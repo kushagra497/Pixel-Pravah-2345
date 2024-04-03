@@ -3,7 +3,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: url(../images/bg-tires.png), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%)
+  background: radial-gradient(
+    circle,
+    #2062cc,
+    #0a3f95 ,
+    #011639 
+  );
+  /* background: url(../images/bg-tires.png), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%) */
 }
 
 ul,
