@@ -26,7 +26,7 @@ body {
     display: grid;
     place-content: center;
     overflow: hidden;
-    background: url(../images/rm251-mind-14-g.jpg), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%)
+    background: url(../images/landingBG.jpg), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%)
 }
 .invalid{
     margin-left: 21%;
@@ -177,7 +177,7 @@ img{
 }
 
 .wrapper .sign-up {
-    transform: rotate(7deg);
+    transform: rotate(1deg);
 }
 
 .wrapper.animated-signin .form-container.sign-in {
@@ -194,7 +194,7 @@ img{
     }
 
     100% {
-        transform: translateX(0) rotate(7deg) scale(1);
+        transform: translateX(0) rotate(1deg) scale(1);
     }
 }
 
@@ -204,7 +204,7 @@ img{
 
 @keyframes rotatecard {
     0% {
-        transform: rotate(7deg);
+        transform: rotate(1deg);
     }
 
     100% {
@@ -228,19 +228,19 @@ img{
     }
 
     100% {
-        transform: translateX(0) rotate(7deg) scale(1);
+        transform: translateX(0) rotate(1deg) scale(1);
     }
 }
 
 .wrapper.wrapper.animated-signup .form-container.sign-in {
-    transform: rotate(7deg);
+    transform: rotate(1deg);
     animation: rotatecard .7s ease-in-out forwards;
     animation-delay: .3s;
 }
 
 @keyframes rotatecard {
     0% {
-        transform: rotate(7deg);
+        transform: rotate(1deg);
     }
 
     100% {
