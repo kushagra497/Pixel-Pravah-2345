@@ -14,9 +14,9 @@ body {
   color: #fff;
     background: radial-gradient(
       circle,
-      #7a63e9,
-      #4935ad ,
-      #1a1240 
+      #2062cc,
+      #0a3f95 ,
+      #011639 
     );
   /* background-color: #7a63e9; */
   /* background: url(../images/landingBG.jpg), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%) */
@@ -342,7 +342,7 @@ button {
 
 .footer img {
   position: absolute;
-  top: -4rem;
+  top: -3rem;
   right: 4rem;
   width: 16rem;
 }
