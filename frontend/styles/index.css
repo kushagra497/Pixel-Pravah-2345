@@ -12,7 +12,14 @@ body {
   /* background-color: rgb(46, 49, 65); */
   
   color: #fff;
-  background: url(../images/landingBG.jpg), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%)
+    background: radial-gradient(
+      circle,
+      #7a63e9,
+      #4935ad ,
+      #1a1240 
+    );
+  /* background-color: #7a63e9; */
+  /* background: url(../images/landingBG.jpg), linear-gradient(130deg, #767882 0%, #2E3141 20%, #56585d 20%, #303343 25%, #2E3141 25%, #2E3141 27%, #303343 27%, #303343 50%, #2E3141 50%, #2E3141 85%, #303343 85%, #5f6068 90%, #2E3141 90%) */
 }
 
 ul,
@@ -34,7 +41,7 @@ a {
 
 .main-heading span {
   padding: 0.2rem 0.1rem 0.2rem 0.4rem;
-  background-color: rgb(214, 47, 58);
+  background-color:#ff7666 ;
   transform: skewX(-20deg);
 }
 
@@ -56,22 +63,22 @@ button {
 }
 
 .race-now {
-  background-color: rgb(214, 47, 58);
+  background-color: #ff7666 ;
   border: none;
   border-radius: 3px;
   display: flex;
   font-weight: 600;
   align-items: center;
   padding: 0.4rem 1.4rem;
-  box-shadow: 0px 5px 0px rgb(173, 37, 46);
+  box-shadow: 0px 5px 0px 7a63e9;
   cursor: pointer;
   transition: all 0.2s;
 }
 
-.race-now:hover {
-  background-color: rgb(185, 42, 51);
-  box-shadow: 0px -3px 0px rgb(173, 37, 46);
-}
+/* .race-now:hover {
+  background-color: #7a63e9;
+  box-shadow: 0px -3px 0px #7a63e9;
+} */
 
 .race-now span {
   font-weight: 700;
@@ -108,9 +115,9 @@ button {
 .landing-hero {
   background: radial-gradient(
     circle,
-    rgba(29, 97, 148, 1) 0%,
-    rgba(34, 90, 129, 1) 50%,
-    rgba(20, 66, 98, 1) 100%
+    #4296cc ,
+    #3978a0 ,
+    #07456b 
   );
   display: flex;
   align-items: center;
@@ -160,21 +167,21 @@ button {
 }
 
 .landing-hero-content-btns-register button {
-  background-color: rgb(214, 47, 58);
+  background-color:#ff7666;
   border: none;
   border-radius: 3px;
   display: flex;
   font-weight: 600;
   align-items: center;
   padding: 0.4rem 1.4rem;
-  box-shadow: 0px 5px 0px rgb(173, 37, 46);
+  box-shadow: 0px 5px 0px #ff7666;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .landing-hero-content-btns-register button:hover {
-  background-color: rgb(185, 42, 51);
-  box-shadow: 0px -3px 0px rgb(173, 37, 46);
+  background-color:#ff7666;
+  box-shadow: 0px -3px 0px #ff7666;
 }
 
 .landing-hero-content-btns-login button {
@@ -187,7 +194,7 @@ button {
 .landing-hero-content-btns-login button:hover {
   border: none;
   background-color: #fff;
-  color: rgba(34, 90, 129, 1);
+  color: #4296cc ;
   font-weight: 600;
   padding: 0.58rem;
 }
