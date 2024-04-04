@@ -12,7 +12,7 @@ signInLink.addEventListener("click", () => {
   wrapper.classList.remove("animated-signin");
 });
 
-const baseURL = "https://type-racing-speedster.onrender.com/";
+const baseURL = "https://pixel-pravah-2345.vercel.app/";
 
 const invalidspan = document.getElementById("invalid-text");
 const invalid1span = document.getElementById("invalid1-text");

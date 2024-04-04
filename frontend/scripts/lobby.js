@@ -1,4 +1,4 @@
-const socket = io("https://type-racing-speedster.onrender.com/", { transports: ['websocket'] });
+const socket = io("https://pixel-pravah-2345.vercel.app/", { transports: ['websocket'] });
 
 
 function joinLobby() {
@@ -32,7 +32,7 @@ window.onload = function() {
     const username = sessionStorage.getItem("username");
 
     if (username) {
-        const socket = io("https://type-racing-speedster.onrender.com/", { transports: ['websocket'] });
+        const socket = io("https://pixel-pravah-2345.vercel.app/", { transports: ['websocket'] });
 
         socket.on("connect", () => {
             socket.emit("join-lobby", username);
